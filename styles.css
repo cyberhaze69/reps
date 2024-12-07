@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #36393f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+  .discord-message {
+    background-color: #313338;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    width: 500px;
+    margin-bottom: 10px;
+
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    background-image: url(avatar1.jpg);
+    display: inline-block;
+    background-size: cover;
+  }
+  .message-content {
+    flex: 1;
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .username {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  .timestamp {
+    font-size: 12px;
+    color: #b9bbbe;
+    display: none;
+  }
+  .message {
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+  .kiemelt{
+    background-color: #414676;
+    border-radius: 5;
+    cursor: pointer;
+    color: #c1c5f3;
+  }
+  a{
+    text-decoration: none;
+  }
+  h1{
+    text-align: center;
+    margin-top: 0;
+    margin: 45px;
+  }
+  .discord-message:hover{
+    background-color: #2e3035;
+  }
+  .kep1{
+    background-image: url(kep2.jpg);
+  }
+  .kep2{
+    background-image: url(kep3.jpg);
+  }
+  .kep3{
+    background-image: url(kep4.jpg);
+  }
+  .kep4{
+    background-image: url(kep5.png);
+  }
+  .kep5{
+    background-image: url(kep6.jpg);
+  }
+  .egyeb{
+    color: #7289DA;
+    cursor: pointer;
+  }
+  .button {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #7289DA;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #4653c9;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(70, 83, 201, 0.6);
+}
