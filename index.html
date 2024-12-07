@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlyX Reps</title>
+    <title></title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body oncontextmenu="return false">
-<h1>FlyX Reps</h1>
+<h1><span id="un7"></span> Reps</h1>
     <div class="discord-message">
         <div class="avatar"></div>
         <div class="message-content">
@@ -72,7 +72,7 @@
       <a href="https://discord.com/login"><div class="button">Jelentkezz be és írj te is!</div></a>
 </body>
 <script>
-        const valtozo = 'olipoli';
+        const valtozo = 'FlyX';
 
         window.onload = function() {
             document.getElementById('un1').innerText = valtozo;
@@ -81,6 +81,8 @@
             document.getElementById('un4').innerText = valtozo;
             document.getElementById('un5').innerText = valtozo;
             document.getElementById('un6').innerText = valtozo;
+            document.getElementById('un7').innerText = valtozo;
+            document.getElementById('un8').innerText = valtozo;
         };
 
         document.onkeypress = function (event) {
@@ -101,5 +103,7 @@ if (event.keyCode == 123) {
 return false;
 }
 }
+
+document.title = valtozo + " Reps";  // A title dinamikusan frissítve
 </script>
 </html>
